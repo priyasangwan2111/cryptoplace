@@ -1,0 +1,69 @@
+/* Login.css and SignUp.css */
+
+.login, .signup {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background-color: #1e1e2f;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.login h2, .signup h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.login form, .signup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login input, .signup input {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2e2e44;
+  color: white;
+  font-size: 16px;
+}
+
+.login input::placeholder, .signup input::placeholder {
+  color: #bbb;
+}
+
+.login button, .signup button {
+  background-color: #5c6bc0;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login button:hover, .signup button:hover {
+  background-color: #3f51b5;
+}
+
+.login p, .signup p {
+  margin-top: 15px;
+  text-align: center;
+  color: #ccc;
+}
+
+.login p a, .signup p a {
+  color: #5c6bc0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login p a:hover, .signup p a:hover {
+  text-decoration: underline;
+}
